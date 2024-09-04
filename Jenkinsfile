@@ -3,9 +3,41 @@ pipeline{
         // label "node"
     }
     stages{
-        stage("A"){
+        stage("Test"){
             steps{
-                echo "========executing A========"
+                echo "========executing Test========"
+            }
+            post{
+                always{
+                    echo "========always========"
+                }
+                success{
+                    echo "========A executed successfully========"
+                }
+                failure{
+                    echo "========A execution failed========"
+                }
+            }
+        }
+        stage("Dev"){
+            steps{
+                echo "========executing Dev========"
+            }
+            post{
+                always{
+                    echo "========always========"
+                }
+                success{
+                    echo "========A executed successfully========"
+                }
+                failure{
+                    echo "========A execution failed========"
+                }
+            }
+        }
+        stage("Prod"){
+            steps{
+                echoo "========executing Prod========"
             }
             post{
                 always{
