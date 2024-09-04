@@ -35,7 +35,7 @@ pipeline{
         }
         stage("Prod"){
             steps{
-                echoo "========executing Prod========"
+                echo "========executing Prod========"
             }
             post{
                 always{
