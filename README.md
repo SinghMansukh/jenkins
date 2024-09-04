@@ -1,2 +1,2 @@
 # jenkins
-Just for testing Jenkins in real world. 
+Just for testin 
