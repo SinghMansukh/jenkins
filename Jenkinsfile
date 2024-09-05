@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage("Test"){
             steps{
-                echo "========executing Test_Test_TestMansukh.========"
+                echo "========executing Test_Test_TestMansukhSingh.========"
             }
             post{
                 always{
