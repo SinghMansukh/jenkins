@@ -33,7 +33,7 @@ pipeline{
                 }
             }
         }
-        stage("Prod"){
+        stage("ENV "){
             steps{
                 echo "========executing Prod========"
             }
