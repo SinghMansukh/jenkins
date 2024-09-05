@@ -1,2 +1,2 @@
 # jenkins
-Just for testin 
+Just for testing purpose. 
