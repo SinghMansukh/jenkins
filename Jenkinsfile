@@ -21,9 +21,9 @@ pipeline{
         stage("Dev"){
             steps{
                 echo "========executing BUILD URL i.e $BUILD_URL========"
-                echo "========executing BUILD URL i.e $JENKINS_URL========"
-                echo "========executing BUILD URL i.e $NODE_NAME========"
-                echo "========executing BUILD URL i.e $WORKSPACE========"
+                echo "========executing JENKINS URL i.e $JENKINS_URL========"
+                echo "========executing NODE NAME i.e $NODE_NAME========"
+                echo "========executing WORKSPACEL i.e $WORKSPACE========"
                 
             }
             post{
