@@ -3,7 +3,8 @@ pipeline{
     stages{
         stage("Test"){
             steps{
-                echo "========executing Test_Test_Tes after URL update.========"
+                echo "========executing the BUILD_NUMBER. the ID is $BUILD_NUMBER========"
+                
             }
             post{
                 always{
