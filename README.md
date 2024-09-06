@@ -1,2 +1,2 @@
 # jenkins
-Just for testing purpose. HEHEHE
+Just for testing purpose. Editing the IP's
