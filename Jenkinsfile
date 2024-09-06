@@ -20,7 +20,11 @@ pipeline{
         }
         stage("Dev"){
             steps{
-                echo "========executing Dev========"
+                echo "========executing BUILD URL i.e $BUILD_URL========"
+                echo "========executing BUILD URL i.e $JENKINS_URL========"
+                echo "========executing BUILD URL i.e $NODE_NAME========"
+                echo "========executing BUILD URL i.e $WORKSPACE========"
+                
             }
             post{
                 always{
